@@ -35,8 +35,7 @@ export default function AppNav() {
   }
 
   return (
-    <nav className="sticky top-0 z-50 flex flex-col gap-4 border-b bg-white/90 px-5 py-4 shadow-sm backdrop-blur md:flex-row md:items-center md:justify-between md:px-10">
-      <Link href="/" className="text-3xl font-black text-blue-950">
+    <nav className="sticky top-0 z-50 flex flex-col gap-4 bg-[#f7f9fc] px-5 py-4 shadow-sm backdrop-blur md:flex-row md:items-center md:justify-between md:px-10"><Link href="/" className="text-3xl font-black text-blue-950">
         IceIndex
       </Link>
 
