@@ -23,7 +23,7 @@ export default function Home() {
 
           <div className="mt-10 flex gap-4">
             <Link href="/login" className="rounded-2xl bg-blue-950 px-8 py-4 text-lg font-semibold text-white shadow-lg hover:bg-blue-800">
-              Get Started
+              See Your Score
             </Link>
 
             <Link href="/demo" className="rounded-2xl border border-slate-300 bg-white px-8 py-4 text-lg font-semibold text-slate-800 shadow-sm hover:bg-slate-50">
