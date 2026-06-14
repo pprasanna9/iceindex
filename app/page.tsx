@@ -3,7 +3,7 @@ import AppNav from "./components/AppNav";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#f7f9fc] text-slate-950">
+    <main className="min-h-screen bg-[#f7f9fc]">
       <AppNav />
 
       <section className="mx-auto flex max-w-7xl items-center justify-between gap-12 px-10 py-20">

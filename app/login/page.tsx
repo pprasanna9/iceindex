@@ -68,7 +68,7 @@ export default function LoginPage() {
 
             <button
               onClick={handleLogin}
-              className="w-full rounded-2xl bg-blue-950 p-4 text-lg font-bold text-white hover:bg-blue-800"
+              className="w-full cursor-pointer rounded-2xl bg-blue-950 p-4 text-lg font-bold text-white hover:bg-blue-800"
             >
               Sign In
             </button>

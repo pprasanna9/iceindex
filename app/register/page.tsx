@@ -69,12 +69,12 @@ export default function RegisterPage() {
               className="w-full rounded-2xl border border-slate-200 p-4"
             />
 
-            <button
-              onClick={handleRegister}
-              className="w-full rounded-2xl bg-blue-950 p-4 text-lg font-bold text-white"
-            >
-              Create Account
-            </button>
+			<button
+			onClick={handleRegister}
+			className="w-full cursor-pointer rounded-2xl bg-blue-950 p-4 text-lg font-bold text-white hover:bg-blue-800"
+			>
+			Create Account
+			</button>
           </div>
         </div>
       </section>
