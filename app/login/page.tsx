@@ -73,12 +73,21 @@ export default function LoginPage() {
               Sign In
             </button>
           </div>
+		  <div className="mt-2 text-right">
+  <Link
+    href="/forgot-password"
+    className="text-sm font-semibold text-blue-600 hover:text-blue-800"
+  >
+    Forgot Password?
+  </Link>
+</div>
 
           <p className="mt-6 text-center text-sm text-slate-500">
             Don’t have an account?{" "}
             <Link href="/register" className="font-semibold text-blue-950">
               Create one
             </Link>
+			
           </p>
         </div>
       </section>
